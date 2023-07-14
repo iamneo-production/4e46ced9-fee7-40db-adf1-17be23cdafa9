@@ -71,6 +71,7 @@ namespace dotnetapp
             {
                 endpoints.MapControllers();
             });
-        }
-    }
+        }
+    }
 }
+
