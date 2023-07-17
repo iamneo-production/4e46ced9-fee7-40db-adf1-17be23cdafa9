@@ -3157,11 +3157,7 @@
           "Moq": "4.18.4",
           "NUnit": "3.13.0",
           "Swashbuckle.AspNetCore": "5.6.3",
-<<<<<<< HEAD
-          "System.Data.sqlClient": "4.8.5"
-=======
           "System.Data.SqlClient": "4.8.5"
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
         },
         "compile": {
           "bin/placeholder/dotnetapp.dll": {}

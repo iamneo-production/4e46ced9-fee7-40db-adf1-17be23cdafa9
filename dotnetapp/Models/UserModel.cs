@@ -14,8 +14,4 @@ namespace dotnetapp.Models
         public string MobileNumber { get; set; }
         public string UserRole { get; set; }       
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a

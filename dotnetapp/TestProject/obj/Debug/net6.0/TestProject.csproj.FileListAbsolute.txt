@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/CoverletSourceRootsMapping
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/dotnetapp.deps.json
@@ -166,3 +167,5 @@
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/TestProject.pdb
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/TestProject.genruntimeconfig.cache
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/ref/TestProject.dll
+=======
+>>>>>>> parent of 8ed7a7e (Dashboard files)
