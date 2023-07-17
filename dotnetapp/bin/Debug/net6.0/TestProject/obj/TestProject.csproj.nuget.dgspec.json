@@ -151,7 +151,11 @@
               "target": "Package",
               "version": "[5.6.3, )"
             },
+<<<<<<< HEAD
+            "System.Data.sqlClient": {
+=======
             "System.Data.SqlClient": {
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
               "target": "Package",
               "version": "[4.8.5, )"
             }
