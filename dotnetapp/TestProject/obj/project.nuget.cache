@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "1FOWhR67jnDQ6PqqbGBequ/i0nv53eFxUmDxr/xKUej/IPe2nMqcFGNs1Woax9EN2cM4kzU1vebKdZb2S11RVQ==",
   "success": true,
   "projectFilePath": "/home/coder/project/workspace/dotnetapp/TestProject/TestProject.csproj",
@@ -14,7 +15,11 @@
     "/home/coder/.nuget/packages/microsoft.testplatform.objectmodel/17.1.0/microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
     "/home/coder/.nuget/packages/microsoft.testplatform.testhost/17.1.0/microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
 =======
+  "dgSpecHash": "+motdy+Cs6Z50GRnAiUwII0C3VXcAr1WQMAjl4EKzYXsKBRyJhfGyXYcLss3OC2FyESKY2H55LXagUtDN1KmrQ==",
+>>>>>>> 8ed7a7e5e05970b7cbf85d8af0ef330e82d8b063
+=======
   "dgSpecHash": "QB7YFw8fFJ5KPYA9osVQorIgHTTedKNwq22+eMw3r/h/V579HTtICldzczO2q0Sj4Cv6PynAi142S4CRQVnQ+w==",
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
   "success": true,
   "projectFilePath": "/home/coder/project/workspace/dotnetapp/TestProject/TestProject.csproj",
   "expectedPackageFiles": [
