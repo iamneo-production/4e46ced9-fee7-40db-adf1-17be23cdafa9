@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "J+RbvMEPNRXr+EyV2mPNn5LAR/oftDBa0I/qSWFSZYayHAU91fLAcKoeyd92aN1BiNICyrLKu+h28O/wSgUxzg==",
-=======
   "dgSpecHash": "NYCZbqnW/4C3XwUokLlx73lP6L3s5nY94pUySt+yl5Gmt9X2SOQ2q2OapyWuFn+AikvUhFvnVF+q2fB9ZVWKMQ==",
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
   "success": true,
   "projectFilePath": "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj",
   "expectedPackageFiles": [
