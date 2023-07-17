@@ -26,6 +26,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
 <<<<<<< HEAD
+            "projectReferences": {}
+=======
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             "projectReferences": {}
@@ -40,6 +43,7 @@
 =======
 >>>>>>> 97d85cc56858d7c93ee07849909a40490d5a534b
 >>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 6274baae995b91b28076336bdc4ce41702d2e752
           }
         },
         "warningProperties": {
@@ -92,6 +96,8 @@
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
         }
       }
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -205,6 +211,7 @@
 =======
 >>>>>>> 97d85cc56858d7c93ee07849909a40490d5a534b
 >>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 6274baae995b91b28076336bdc4ce41702d2e752
     }
   }
 }

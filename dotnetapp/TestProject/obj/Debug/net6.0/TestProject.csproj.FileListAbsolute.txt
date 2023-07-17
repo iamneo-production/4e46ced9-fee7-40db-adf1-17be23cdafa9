@@ -5,6 +5,8 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> f35430ec27451fad0484a453b97202a73ad433c1
@@ -24,6 +26,7 @@
 >>>>>>> 8ed7a7e5e05970b7cbf85d8af0ef330e82d8b063
 >>>>>>> f35430ec27451fad0484a453b97202a73ad433c1
 >>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 6274baae995b91b28076336bdc4ce41702d2e752
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/NUnit3.TestAdapter.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/NUnit3.TestAdapter.pdb
@@ -35,6 +38,9 @@
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/TestProject.runtimeconfig.json
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/TestProject.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/TestProject.pdb
+<<<<<<< HEAD
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -66,6 +72,7 @@
 >>>>>>> 8ed7a7e5e05970b7cbf85d8af0ef330e82d8b063
 >>>>>>> f35430ec27451fad0484a453b97202a73ad433c1
 >>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 6274baae995b91b28076336bdc4ce41702d2e752
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.TestPlatform.CoreUtilities.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.TestPlatform.CommunicationUtilities.dll
@@ -73,6 +80,11 @@
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.TestPlatform.Utilities.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.Common.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/testhost.dll
+<<<<<<< HEAD
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/NuGet.Frameworks.dll
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/nunit.framework.dll
+=======
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -107,6 +119,7 @@
 >>>>>>> 8ed7a7e5e05970b7cbf85d8af0ef330e82d8b063
 >>>>>>> f35430ec27451fad0484a453b97202a73ad433c1
 >>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 6274baae995b91b28076336bdc4ce41702d2e752
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -178,6 +191,8 @@
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 >>>>>>> f35430ec27451fad0484a453b97202a73ad433c1
 >>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
@@ -206,6 +221,7 @@
 >>>>>>> 8ed7a7e5e05970b7cbf85d8af0ef330e82d8b063
 >>>>>>> f35430ec27451fad0484a453b97202a73ad433c1
 >>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 6274baae995b91b28076336bdc4ce41702d2e752
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/TestProject.csproj.AssemblyReference.cache
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/TestProject.AssemblyInfoInputs.cache
@@ -221,8 +237,11 @@
 =======
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> parent of 8ed7a7e (Dashboard files)
 >>>>>>> 99fb131c1eaaf6417147302c732e595ce821ae50
 >>>>>>> f35430ec27451fad0484a453b97202a73ad433c1
 >>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 6274baae995b91b28076336bdc4ce41702d2e752
