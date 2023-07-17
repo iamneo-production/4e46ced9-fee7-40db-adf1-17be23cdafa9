@@ -4,14 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using dotnetapp.Models;
-<<<<<<< HEAD
-=======
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
 
 namespace dotnetapp.Controllers
 {
@@ -49,13 +46,5 @@ namespace dotnetapp.Controllers
         }
         
     }
-<<<<<<< HEAD
 }
-=======
-}
-<<<<<<< HEAD
 
-
-=======
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
