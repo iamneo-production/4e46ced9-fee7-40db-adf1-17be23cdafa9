@@ -28,12 +28,22 @@
 <<<<<<< HEAD
             "projectReferences": {}
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            "projectReferences": {}
+=======
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
             "projectReferences": {
               "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj": {
                 "projectPath": "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj"
               }
             }
+<<<<<<< HEAD
+=======
 >>>>>>> 97d85cc56858d7c93ee07849909a40490d5a534b
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 6274baae995b91b28076336bdc4ce41702d2e752
           }
         },
         "warningProperties": {
@@ -88,6 +98,11 @@
       }
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
     },
     "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj": {
       "version": "1.0.0",
@@ -157,7 +172,15 @@
               "target": "Package",
               "version": "[5.6.3, )"
             },
+<<<<<<< HEAD
             "System.Data.SqlClient": {
+=======
+<<<<<<< HEAD
+            "System.Data.sqlClient": {
+=======
+            "System.Data.SqlClient": {
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
               "target": "Package",
               "version": "[4.8.5, )"
             }
@@ -184,7 +207,11 @@
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
         }
       }
+<<<<<<< HEAD
+=======
 >>>>>>> 97d85cc56858d7c93ee07849909a40490d5a534b
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 6274baae995b91b28076336bdc4ce41702d2e752
     }
   }
 }

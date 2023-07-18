@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 
 =======
 >>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -127,8 +130,5 @@ namespace dotnetapp
             }
         }
     }
-}
 <<<<<<< HEAD
-
-=======
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+}
