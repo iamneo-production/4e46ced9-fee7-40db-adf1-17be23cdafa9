@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+>>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/appsettings.Development.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/appsettings.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/obj/project.assets.json
@@ -25,6 +30,7 @@
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Microsoft.OpenApi.dll
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Moq.dll
+/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Newtonsoft.Json.dll
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/nunit.framework.dll
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -68,23 +74,3 @@
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.pdb
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.genruntimeconfig.cache
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/ref/dotnetapp.dll
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
-/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/appsettings.Development.json
-/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/appsettings.json
-/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/dotnetapp.deps.json
-/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/dotnetapp.runtimeconfig.json
-/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject.deps.json
-/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject.runtimeconfig.json
-/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject/obj/project.assets.json
-/home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject/obj/TestProject.csproj.nuget.dgspec.json
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
-<<<<<<< HEAD
-=======
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
->>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9

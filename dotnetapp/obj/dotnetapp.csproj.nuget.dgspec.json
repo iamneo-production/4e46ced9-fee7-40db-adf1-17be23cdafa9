@@ -68,26 +68,15 @@
               "target": "Package",
               "version": "[3.13.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
             },
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "System.Data.sqlClient": {
-=======
             "System.Data.SqlClient": {
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
-=======
-            "System.Data.SqlClient": {
-=======
-<<<<<<< HEAD
-            "System.Data.sqlClient": {
-=======
-            "System.Data.SqlClient": {
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
->>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
               "target": "Package",
               "version": "[4.8.5, )"
             }

@@ -1,15 +1,6 @@
 {
   "runtimeOptions": {
     "tfm": "net6.0",
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    "framework": {
-      "name": "Microsoft.NETCore.App",
-      "version": "6.0.0"
-    }
-=======
->>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
     "frameworks": [
       {
         "name": "Microsoft.NETCore.App",
@@ -20,9 +11,5 @@
         "version": "6.0.0"
       }
     ]
-<<<<<<< HEAD
-=======
->>>>>>> 6274baae995b91b28076336bdc4ce41702d2e752
->>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
   }
 }
