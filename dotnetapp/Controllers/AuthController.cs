@@ -29,14 +29,14 @@ namespace dotnetapp.Controllers
         {
             try
             {
-                string query = "INSERT INTO Users (Email, Password, Username, MobileNumber, UserRole) " +
-                               "VALUES (@Email, @Password, @Username, @MobileNumber, @UserRole)";
+                string query = "INSERT INTO Users (Email, Password, UserName, MobileNumber, UserRole) " +
+                               "VALUES (@Email, @Password, @UserName, @MobileNumber, @UserRole)";
 
                 using (SqlCommand command = new SqlCommand(query, _connection))
                 {
                     command.Parameters.AddWithValue("@Email", userModel.Email);
                     command.Parameters.AddWithValue("@Password", userModel.Password);
-                    command.Parameters.AddWithValue("@Username", userModel.Username);
+                    command.Parameters.AddWithValue("@UserName", userModel.UserName);
                     command.Parameters.AddWithValue("@MobileNumber", userModel.MobileNumber);
                     command.Parameters.AddWithValue("@UserRole", userModel.UserRole);
 
@@ -107,6 +107,21 @@ namespace dotnetapp.Controllers
         [HttpPost]
         [Route("user/login")]
         public IActionResult AuthenticateUser([FromBody] LoginModel login)
+        {
+            DataAccessLayer dal = new DataAccessLayer();
+            bool isAuthenticated = dal.AuthenticateUser(login.Email, login.Password);
+            if (isAuthenticated)
+            {
+                return StatusCode(201, new { Status = "Success" });
+            }
+            else
+            {
+                 return BadRequest(new { Status = "Error", Error = "Wrong Email or Password" });
+            }
+        }
+        [HttpPost]
+        [Route("admin/login")]
+        public IActionResult AuthenticateAdmin([FromBody] LoginModel login)
         {
             DataAccessLayer dal = new DataAccessLayer();
             bool isAuthenticated = dal.AuthenticateUser(login.Email, login.Password);

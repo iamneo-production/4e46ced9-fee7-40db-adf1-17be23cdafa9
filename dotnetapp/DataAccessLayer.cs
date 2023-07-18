@@ -28,7 +28,7 @@ namespace dotnetapp
             else
             {
                 con.Close();
-                cmd = new SqlCommand("insert into Users Values('" + user.Email + "','" + user.Password + "','" + user.Username + "'," +
+                cmd = new SqlCommand("insert into Users Values('" + user.Email + "','" + user.Password + "','" + user.UserName + "'," +
                     "'" + user.MobileNumber + "','"+user.UserRole+"') ", con);
                 con.Open();
                 int rowsaffected = cmd.ExecuteNonQuery();
@@ -58,7 +58,7 @@ namespace dotnetapp
             else
             {
                 con.Close();
-                cmd = new SqlCommand("insert into Users Values('" + admin.Email + "','" + admin.Password + "','" + admin.Username + "', '" + admin.MobileNumber + "','"+admin.UserRole+"') ", con);
+                cmd = new SqlCommand("insert into Users Values('" + admin.Email + "','" + admin.Password + "','" + admin.UserName + "', '" + admin.MobileNumber + "','"+admin.UserRole+"') ", con);
                 con.Open();
                 int rowsaffected = cmd.ExecuteNonQuery();
                 con.Close();
@@ -104,6 +104,25 @@ namespace dotnetapp
             return services;
         }
          internal bool AuthenticateUser(string email, string password)
+        {
+            using (SqlConnection con = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=cameraservice;trusted_connection=false;Persist Security Info =False;Encrypt=False"))
+            {
+                con.Open();
+
+                string query = "SELECT * FROM Users WHERE Email = @Email AND Password = @Password";
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@Email", email);
+                    cmd.Parameters.AddWithValue("@Password", password);
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        return reader.HasRows;
+                    }
+                }
+            }
+        }
+        internal bool AuthenticateAdmin(string email, string password)
         {
             using (SqlConnection con = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=cameraservice;trusted_connection=false;Persist Security Info =False;Encrypt=False"))
             {
