@@ -2987,7 +2987,22 @@
       "Moq >= 4.18.4",
       "NUnit >= 3.13.0",
       "Swashbuckle.AspNetCore >= 5.6.3",
+<<<<<<< HEAD
+<<<<<<< HEAD
+      "System.Data.sqlClient >= 4.8.5"
+=======
       "System.Data.SqlClient >= 4.8.5"
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+=======
+      "System.Data.SqlClient >= 4.8.5"
+=======
+<<<<<<< HEAD
+      "System.Data.sqlClient >= 4.8.5"
+=======
+      "System.Data.SqlClient >= 4.8.5"
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
     ]
   },
   "packageFolders": {
@@ -3061,7 +3076,21 @@
             "target": "Package",
             "version": "[5.6.3, )"
           },
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
           "System.Data.SqlClient": {
+=======
+<<<<<<< HEAD
+>>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
+          "System.Data.sqlClient": {
+=======
+          "System.Data.SqlClient": {
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+<<<<<<< HEAD
+=======
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
             "target": "Package",
             "version": "[4.8.5, )"
           }
