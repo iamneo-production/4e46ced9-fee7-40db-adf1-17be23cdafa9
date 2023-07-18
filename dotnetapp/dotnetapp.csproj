@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute> 
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0" />
+    <PackageReference Include="Moq" Version="4.18.4" />
+    <PackageReference Include="NUnit" Version="3.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+<<<<<<< HEAD
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+=======
+<<<<<<< HEAD
+    <PackageReference Include="System.Data.sqlClient" Version="4.8.5" />
+=======
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+  </ItemGroup>
+
+</Project>
