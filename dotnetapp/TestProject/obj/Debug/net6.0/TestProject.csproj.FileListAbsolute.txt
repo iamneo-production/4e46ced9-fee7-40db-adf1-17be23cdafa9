@@ -1,8 +1,16 @@
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
 >>>>>>> 8ed7a7e5e05970b7cbf85d8af0ef330e82d8b063
 >>>>>>> parent of 8ed7a7e (Dashboard files)
 >>>>>>> 99fb131c1eaaf6417147302c732e595ce821ae50
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ebded882596a4706556b4b4490af1e1939411ade
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/CoverletSourceRootsMapping
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/dotnetapp.deps.json
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/dotnetapp.runtimeconfig.json
@@ -11,6 +19,11 @@
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/TestProject/obj/project.assets.json
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/TestProject/obj/TestProject.csproj.nuget.dgspec.json
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/dotnetapp
+<<<<<<< HEAD
+=======
+>>>>>>> 8ed7a7e5e05970b7cbf85d8af0ef330e82d8b063
+>>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
+>>>>>>> ebded882596a4706556b4b4490af1e1939411ade
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.TestPlatform.PlatformAbstractions.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/NUnit3.TestAdapter.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/NUnit3.TestAdapter.pdb
@@ -22,6 +35,15 @@
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/TestProject.runtimeconfig.json
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/TestProject.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/TestProject.pdb
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+=======
+<<<<<<< HEAD
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+=======
+>>>>>>> ebded882596a4706556b4b4490af1e1939411ade
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Castle.Core.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
@@ -37,6 +59,11 @@
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.OpenApi.dll
+<<<<<<< HEAD
+=======
+>>>>>>> 8ed7a7e5e05970b7cbf85d8af0ef330e82d8b063
+>>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
+>>>>>>> ebded882596a4706556b4b4490af1e1939411ade
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.TestPlatform.CoreUtilities.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.TestPlatform.CommunicationUtilities.dll
@@ -44,6 +71,19 @@
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.TestPlatform.Utilities.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.Common.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/testhost.dll
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/NuGet.Frameworks.dll
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/nunit.framework.dll
+=======
+<<<<<<< HEAD
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/NuGet.Frameworks.dll
+/home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/nunit.framework.dll
+=======
+>>>>>>> ebded882596a4706556b4b4490af1e1939411ade
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Moq.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/Newtonsoft.Json.dll
@@ -60,6 +100,11 @@
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/System.Security.Permissions.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/System.Windows.Extensions.dll
+<<<<<<< HEAD
+=======
+>>>>>>> 8ed7a7e5e05970b7cbf85d8af0ef330e82d8b063
+>>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
+>>>>>>> ebded882596a4706556b4b4490af1e1939411ade
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/cs/Microsoft.TestPlatform.CoreUtilities.resources.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/cs/Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/de/Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -125,6 +170,13 @@
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/zh-Hant/Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ebded882596a4706556b4b4490af1e1939411ade
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
@@ -144,6 +196,11 @@
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/dotnetapp.dll
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/dotnetapp.pdb
+<<<<<<< HEAD
+=======
+>>>>>>> 8ed7a7e5e05970b7cbf85d8af0ef330e82d8b063
+>>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
+>>>>>>> ebded882596a4706556b4b4490af1e1939411ade
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/TestProject.csproj.AssemblyReference.cache
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/TestProject.GeneratedMSBuildEditorConfig.editorconfig
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/TestProject.AssemblyInfoInputs.cache
@@ -155,3 +212,12 @@
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/TestProject.pdb
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/TestProject.genruntimeconfig.cache
 /home/coder/project/workspace/dotnetapp/TestProject/obj/Debug/net6.0/ref/TestProject.dll
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of 8ed7a7e (Dashboard files)
+>>>>>>> 99fb131c1eaaf6417147302c732e595ce821ae50
+>>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
+>>>>>>> ebded882596a4706556b4b4490af1e1939411ade
