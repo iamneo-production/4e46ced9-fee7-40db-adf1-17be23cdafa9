@@ -31,15 +31,7 @@ namespace dotnetapp
             //string connectionString = Configuration.GetConnectionString("myconnstring");
            // services.AddDbContext<ProductDBContext>(opt => opt.UseSqlServer(connectionString));
            // services.AddScoped<IProductService, ProductService>();
-            services.AddCors(options =>
-            {
-                options.AddPolicy("MyCorsPolicy", builder =>
-                {
-                    builder.AllowAnyOrigin()
-                           .AllowAnyMethod()
-                           .AllowAnyHeader();
-                });
-            });
+            services.AddCors();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -62,21 +54,12 @@ namespace dotnetapp
 
             app.UseRouting();
 
-            // Enable CORS
-            app.UseCors("MyCorsPolicy");
-
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
-<<<<<<< HEAD
         }
     }
 }
-=======
-        }
-    }
-}
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
