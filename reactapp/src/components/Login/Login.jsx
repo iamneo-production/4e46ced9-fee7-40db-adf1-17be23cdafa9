@@ -24,9 +24,11 @@ function Login() {
   
     if (validationErrors.Email === '' && validationErrors.Password === '') {
       try {
-        const res = await axios.post('http://localhost:5034/api/auth/login', values);
-        if (res.data.Status === 'Success') {
-          const userId = res.data.userId; // Assuming the server provides the user ID in the response
+        const res = await axios.post('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/login', values);
+        const responseData = res.data;
+        const status = responseData.status;
+        const userId = responseData.userId;
+        if (status === 'Success') {
           if (values.Email === 'admin' && values.Password === 'admin') {
             localStorage.setItem('authenticatedUser', false);
             localStorage.setItem('authenticatedAdmin', true);
@@ -88,4 +90,3 @@ function Login() {
   }
   
 export default Login;
-
