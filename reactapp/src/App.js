@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-=======
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup"
 import HomePage from "./components/HomePage/HomePage";
@@ -61,13 +38,9 @@ function App() {
         <Route path='/thankyou' element={<ThankYou />}/>
       </Routes>
     </BrowserRouter>
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
   );
 }
 
 export default App;
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
