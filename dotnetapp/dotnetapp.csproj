@@ -7,7 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+=======
+>>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -16,6 +19,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0" />
     <PackageReference Include="Moq" Version="4.18.4" />
+<<<<<<< HEAD
+=======
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+>>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
     <PackageReference Include="NUnit" Version="3.13" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />

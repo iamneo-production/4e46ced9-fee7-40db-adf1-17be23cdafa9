@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/appsettings.Development.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/appsettings.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/obj/project.assets.json
@@ -76,3 +77,10 @@
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject.runtimeconfig.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject/obj/project.assets.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/TestProject/obj/TestProject.csproj.nuget.dgspec.json
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
+>>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
