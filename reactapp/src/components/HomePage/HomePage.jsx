@@ -10,16 +10,16 @@ function HomePage() {
 
   const navigate = useNavigate()
   useEffect(()=>{
-    const isAuthenticated = localStorage.getItem('authenticatedUser');
+   const isAuthenticated = localStorage.getItem('authenticatedUser');
     if (!isAuthenticated) {
       navigate('/login');
       return;
     }
-      axios.get('http://localhost:5034/api/ServiceCenter/getdetails')
+      axios.get('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/getdetails')
       .then(res=>{
-        if(res.data.Status==="Success"){
-          console.log(res.data.Result)
-          setData(res.data.Result);
+        if(res.data.status==="Success"){
+          console.log(res.data.result)
+          setData(res.data.result);
         }else(
           alert("Error")
         )
@@ -45,10 +45,10 @@ function HomePage() {
     setSearchQuery(query);
     if (query === '') {
       // If search query is empty, display all images with out clicking the button
-      axios.get('http://localhost:5034/api/ServiceCenter/getdetails')
+      axios.get('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/getdetails')
         .then(res => {
-          if (res.data.Status === "Success") {
-            setData(res.data.Result);
+          if (res.data.status === "Success") {
+            setData(res.data.result);
           } else {
             alert("Error");
           }

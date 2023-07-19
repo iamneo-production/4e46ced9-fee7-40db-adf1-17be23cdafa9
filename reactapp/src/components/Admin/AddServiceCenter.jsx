@@ -33,7 +33,7 @@ function AddServiceCenter() {
       const handleSubmit = (event) => {
         event.preventDefault();
         axios
-          .post('http://localhost:5034/api/ServiceCenter/addServiceCenter', values)
+          .post('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/addServiceCenter', values)
           .then((res) => {
             navigate('/centerprofile');
           })

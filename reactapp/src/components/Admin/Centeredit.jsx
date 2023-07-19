@@ -32,10 +32,10 @@ function Centeredit(){
     }
       
     useEffect(() => {
-        axios.get('http://localhost:5034/api/ServiceCenter/getdetails/'+id)
+        axios.get('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/getdetails/'+id)
         .then(res => {
-          if (res.data.Status === 'Success') {
-            const serviceCenters = res.data.Result;
+          if (res.data.status === 'Success') {
+            const serviceCenters = res.data.result;
             setValues({
             serviceCenterID: serviceCenters.serviceCenterID,
             serviceCenterName: serviceCenters.serviceCenterName,
@@ -53,7 +53,7 @@ function Centeredit(){
 
       const handleSubmit = (event) => {
         event.preventDefault();
-        axios.put('http://localhost:5034/api/ServiceCenter/editServiceCenter/'+id, values)
+        axios.put('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/editServiceCenter/'+id, values)
         .then(res => {
           if (res.status === 200) {
             navigate('/centerprofile');
@@ -70,10 +70,10 @@ function Centeredit(){
 //for fetching data to display
 useEffect(() => {
     axios
-      .get('http://localhost:5034/api/ServiceCenter/getdetails')
+      .get('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/getdetails')
       .then((res) => {
-        if (res.data.Status === 'Success') {
-          setData(res.data.Result);
+        if (res.data.status === 'Success') {
+          setData(res.data.result);
         } else {
           alert('Error');
         }
@@ -84,7 +84,7 @@ useEffect(() => {
  //for delete    
  const handleDelete = (id) => {
     axios
-      .delete(`http://localhost:5034/api/ServiceCenter/deleteServiceCenter/${id}`)
+      .delete(`https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/deleteServiceCenter/${id}`)
       .then((res) => {
         if (res.status === 200) {
           window.location.reload(true);
