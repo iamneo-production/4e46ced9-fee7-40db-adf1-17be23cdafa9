@@ -4,21 +4,16 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using dotnetapp.Models;
-<<<<<<< HEAD
-=======
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using System.Data;
 using System.Data.SqlClient;
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
 
 namespace dotnetapp.Controllers
 {
     [ApiController]
     public class ServiceCenterController : ControllerBase
     {
-<<<<<<< HEAD
-=======
         private readonly IConfiguration _configuration;
         private readonly SqlConnection _connection;
         public ServiceCenterController(IConfiguration configuration)
@@ -264,7 +259,6 @@ namespace dotnetapp.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while updating the service center");
             }
         }
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
         BusinessLayer dal = new BusinessLayer();
         [HttpGet]
         [Route("admin/getservicecenter")]
