@@ -26,8 +26,4 @@ namespace dotnetapp
             return dal.AuthenticateUser(login.Email, login.Password);
         }
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996

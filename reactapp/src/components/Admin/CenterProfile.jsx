@@ -18,10 +18,10 @@ function Centerprofile(){
     const navigate = useNavigate()
 
     useEffect(() => {
-        axios.get('http://localhost:5034/api/ServiceCenter/getdetails')
+        axios.get('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/getdetails')
           .then((res) => {
-            if (res.data.Status === 'Success') {
-              setData(res.data.Result);
+            if (res.data.status === 'Success') {
+              setData(res.data.result);
             } else {
               alert('Error');
             }
@@ -31,7 +31,7 @@ function Centerprofile(){
       
       const handleDelete = (id) => {
         axios
-          .delete(`http://localhost:5034/api/ServiceCenter/deleteServiceCenter/${id}`)
+          .delete(`https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/deleteServiceCenter/${id}`)
           .then((res) => {
             if (res.status === 200) {
               window.location.reload(true);

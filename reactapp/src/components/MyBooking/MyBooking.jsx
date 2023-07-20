@@ -24,9 +24,9 @@ function MyBooking() {
 const fetchBookings = async () => {
     try {
       const loggedInUserId = localStorage.getItem('loggedInUserId');
-      const response = await axios.get(`http://localhost:5034/api/Appointment/getdetails?userId=${loggedInUserId}`);
+      const response = await axios.get(`https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/api/Appointment/getdetails?userId=${loggedInUserId}`);
       const { data } = response;
-      setBookings(data.Result);
+      setBookings(data.result);
       setLoading(false);
     } catch (error) {
       console.error('Error fetching bookings:', error);
@@ -75,7 +75,7 @@ const fetchBookings = async () => {
   const deleteBooking = (bookingID) => {
     if (window.confirm('Are you sure you want to delete this booking?')) {
       axios
-        .delete(`http://localhost:5034/api/Appointment/delete/${bookingID}`)
+        .delete(`https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/api/Appointment/delete/${bookingID}`)
         .then(() => {
           fetchBookings();
         })
@@ -94,7 +94,7 @@ const fetchBookings = async () => {
             bookingIDs: selectedBookings.map(Number),
           };
 
-          await axios.delete('http://localhost:5034/api/Appointment/deleteMultiple', {
+          await axios.delete('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/api/Appointment/deleteMultiple', {
             data: JSON.stringify(requestData),
             headers: {
               'Content-Type': 'application/json',
@@ -183,20 +183,20 @@ const fetchBookings = async () => {
                     <td>
                       <input
                         type="checkbox"
-                        checked={selectedBookings.includes(booking.ID)}
-                        onChange={() => handleBookingSelection(booking.ID)}
+                        checked={selectedBookings.includes(booking.id)}
+                        onChange={() => handleBookingSelection(booking.id)}
                       />
                     </td>
                     <td>
-                      <Link to={`/editbooking/${booking.ID}`}>
+                      <Link to={`/editbooking/${booking.id}`}>
                         <FaEdit />
                       </Link>
                     </td>
                     <td>
-                      <FaTrash onClick={() => deleteBooking(booking.ID)} />
+                      <FaTrash onClick={() => deleteBooking(booking.id)} />
                     </td>
                     <td>
-                      <Link to={`/billgeneration/${booking.ID}`}>
+                      <Link to={`/billgeneration/${booking.id}`}>
                         <FaFileInvoice />
                       </Link>
                     </td>
