@@ -35,11 +35,11 @@ const [values, setValues] = useState({
     }
     // Fetch the service center details from the backend
     axios
-    .get(`http://localhost:5034/api/ServiceCenter/getdetails/${id}`)
+    .get(`https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/getdetails/${id}`)
 
       .then((res) => {
-        if (res.data.Status === 'Success') {
-          setData(res.data.Result);
+        if (res.data.status === 'Success') {
+          setData(res.data.result);
         } else {
           alert('Error fetching service center details');
         }
@@ -92,10 +92,6 @@ const [values, setValues] = useState({
   };
 
  
-
-
-
-
   const handleInput = (event) => {
     setValues((prev) => ({ ...prev, [event.target.name]: event.target.value }));
   };
@@ -112,7 +108,6 @@ const [values, setValues] = useState({
   };
 
 
-  
   const handleSubmit = (event) => {
     event.preventDefault();
     // Check if the selected slot is already booked
@@ -127,7 +122,7 @@ const [values, setValues] = useState({
     // Submit the form data to the backend
     console.log(updatedValues);
     axios
-      .post('http://localhost:5034/api/Appointment/addproduct',updatedValues)
+      .post('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/api/Appointment/addproduct',updatedValues)
       .then((res) => {
         console.log(res);
         // Slot booked successfully
@@ -257,3 +252,5 @@ const [values, setValues] = useState({
 }
 
 export default Dashboard;
+
+

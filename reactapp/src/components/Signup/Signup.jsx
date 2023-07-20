@@ -39,7 +39,7 @@ function Signup() {
         Id: randomId,
       };
       try {
-        await axios.post('http://localhost:5034/api/auth/register', updatedValues);
+        await axios.post('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/registration', updatedValues);
         navigate("/login");
       } catch (err) {
         console.log(err);

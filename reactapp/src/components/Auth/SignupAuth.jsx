@@ -1,6 +1,6 @@
 function SignupAuth(values) {
     let error = {}
-    const email_pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    const email_pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const password_pattern = /^[a-zA-Z0-9]{8,}$/
     const username_pattern = /^[a-zA-Z0-9]{3,}$/ //alpha numeric character
     const mobilenumber_pattern = /^[0-9]{10}$/

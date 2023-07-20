@@ -21,10 +21,15 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/home/coder/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
->>>>>>> 97d85cc56858d7c93ee07849909a40490d5a534b
+>>>>>>> 3292d8d95ac5cb9422264e9baad444713025416b
     <PkgNUnit_Analyzers Condition=" '$(PkgNUnit_Analyzers)' == '' ">/home/coder/.nuget/packages/nunit.analyzers/3.3.0</PkgNUnit_Analyzers>
     <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/home/coder/.nuget/packages/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>
+=======
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/home/coder/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0</PkgMicrosoft_Extensions_ApiDescription_Server>
+    <PkgNUnit_Analyzers Condition=" '$(PkgNUnit_Analyzers)' == '' ">/home/coder/.nuget/packages/nunit.analyzers/3.3.0</PkgNUnit_Analyzers>
+>>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
   </PropertyGroup>
 </Project>

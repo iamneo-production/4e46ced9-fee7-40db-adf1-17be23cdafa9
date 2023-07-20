@@ -38,11 +38,11 @@ function EditBooking() {
       return;
     }
     axios
-      .get(`http://localhost:5034/api/Appointment/getdetails/${id}`)
+      .get(`https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/api/Appointment/getdetails/${id}`)
       .then((res1) => {
         // Set the booked slots
        // console.log(res1);
-        const { selectedSlot, availableSlots } = res1.data.Result;
+        const { selectedSlot, availableSlots } = res1.data.result;
         setSelectedSlot(selectedSlot);
         setBookedSlots(availableSlots);
 
@@ -52,7 +52,7 @@ function EditBooking() {
           dateOfPurchase,
           contactNumber,
           problemDescription,
-        } = res1.data.Result;
+        } = res1.data.result;
 
         setValues({
           ...values,
@@ -117,9 +117,9 @@ function EditBooking() {
     // Check if the selected slot is already booked
     if (selectedSlot) {
       axios
-        .get(`http://localhost:5034/api/Appointment/checkSlotAvailability/${selectedSlot}/${id}`)
+        .get(`https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/api/Appointment/checkSlotAvailability/${selectedSlot}/${id}`)
         .then((res) => {
-          if (res.data.Status === 'Error') {
+          if (res.data.status === 'Error') {
             setError('Slot is already booked. Please select another slot.');
           } else {
             // Slot is available or unchanged, proceed with the update
@@ -135,7 +135,7 @@ function EditBooking() {
 
   const updateBooking = (payload) => {
     axios
-      .put(`http://localhost:5034/api/Appointment/updateBooking/${id}`, payload)
+      .put(`https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/api/Appointment/updateBooking/${id}`, payload)
       .then((res) => {
         if (res.data.message === 'Booking updated successfully') {
           navigate('/mybooking');
