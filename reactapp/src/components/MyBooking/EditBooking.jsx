@@ -174,7 +174,7 @@ function EditBooking() {
                 </Link>
               </li>
             </ul>
-            <a className="logout" id="logout" onClick={HandleLogout}></a>
+            <a className="logout" id="logout" onClick={HandleLogout}>Logout</a>
           </div>
         </div>
         <Outlet />
