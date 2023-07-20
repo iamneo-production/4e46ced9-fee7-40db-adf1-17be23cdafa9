@@ -28,7 +28,7 @@ namespace dotnetapp
             else
             {
                 con.Close();
-                cmd = new SqlCommand("insert into Users Values('" + user.Email + "','" + user.Password + "','" + user.UserName + "'," +
+                cmd = new SqlCommand("insert into Users Values('" + user.Email + "','" + user.Password + "','" + user.Username + "'," +
                     "'" + user.MobileNumber + "','"+user.UserRole+"') ", con);
                 con.Open();
                 int rowsaffected = cmd.ExecuteNonQuery();
@@ -58,7 +58,7 @@ namespace dotnetapp
             else
             {
                 con.Close();
-                cmd = new SqlCommand("insert into Users Values('" + admin.Email + "','" + admin.Password + "','" + admin.UserName + "', '" + admin.MobileNumber + "','"+admin.UserRole+"') ", con);
+                cmd = new SqlCommand("insert into Users Values('" + admin.Email + "','" + admin.Password + "','" + admin.Username + "', '" + admin.MobileNumber + "','"+admin.UserRole+"') ", con);
                 con.Open();
                 int rowsaffected = cmd.ExecuteNonQuery();
                 con.Close();
