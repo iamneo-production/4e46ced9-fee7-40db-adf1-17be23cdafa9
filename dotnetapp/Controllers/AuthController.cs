@@ -29,14 +29,14 @@ namespace dotnetapp.Controllers
         {
             try
             {
-                string query = "INSERT INTO Users (Email, Password, UserName, MobileNumber, UserRole) " +
-                               "VALUES (@Email, @Password, @UserName, @MobileNumber, @UserRole)";
+                string query = "INSERT INTO Users (Email, Password, Username, MobileNumber, UserRole) " +
+                               "VALUES (@Email, @Password, @Username, @MobileNumber, @UserRole)";
 
                 using (SqlCommand command = new SqlCommand(query, _connection))
                 {
                     command.Parameters.AddWithValue("@Email", userModel.Email);
                     command.Parameters.AddWithValue("@Password", userModel.Password);
-                    command.Parameters.AddWithValue("@UserName", userModel.UserName);
+                    command.Parameters.AddWithValue("@Username", userModel.Username);
                     command.Parameters.AddWithValue("@MobileNumber", userModel.MobileNumber);
                     command.Parameters.AddWithValue("@UserRole", userModel.UserRole);
 
