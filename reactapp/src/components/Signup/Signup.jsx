@@ -33,10 +33,8 @@ function Signup() {
       validationErrors.MobileNumber === "" &&
       validationErrors.UserRole === ""
     ) {
-      const randomId = Math.floor(Math.random() * 1000000);
       const updatedValues = {
         ...values,
-        Id: randomId,
       };
       try {
         await axios.post('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/registration', updatedValues);
