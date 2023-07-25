@@ -1,16 +1,16 @@
 import React, {useEffect,useState } from 'react';
-import '../HomePage/HomePage.css';
+import './HomePage.css';
 import { Link, useNavigate, Outlet } from 'react-router-dom';
 
 import axios from 'axios';
 
-function DisplayDashboard() {
+function HomePage() {
   const [data,setData]=useState([])
   const [searchQuery, setSearchQuery] = useState('');
 
   const navigate = useNavigate()
   useEffect(()=>{
-    const isAuthenticated = localStorage.getItem('authenticatedUser');
+   const isAuthenticated = localStorage.getItem('authenticatedUser');
     if (!isAuthenticated) {
       navigate('/login');
       return;
@@ -77,13 +77,13 @@ function DisplayDashboard() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <Link to="/homepage" className="nav-link" id="homeButton" aria-current="page">Home</Link>
+                <Link href="" to="/homepage" className="nav-link" id="homeButton" aria-current="page">Home</Link>
               </li>
               <li className="nav-item">
-                <Link to="/Dashboard" className="nav-link" id="dashBoardButton">Dashboard</Link>
+                <Link href="" to="/Dashboard" className="nav-link" id="dashBoardButton">Dashboard</Link>
               </li>
               <li className="nav-item">
-                <Link to="/mybooking" className="nav-link" id="myBookingButton">My Booking</Link>
+                <Link href="" to="/mybooking" className="nav-link" id="myBookingButton">My Booking</Link>
               </li>
             </ul>
             <a className="logout" id="logout"  onClick={HandleLogout}>Logout</a>
@@ -117,5 +117,4 @@ function DisplayDashboard() {
     </div>
   );
 }
-
-export default DisplayDashboard;
+export default HomePage;
