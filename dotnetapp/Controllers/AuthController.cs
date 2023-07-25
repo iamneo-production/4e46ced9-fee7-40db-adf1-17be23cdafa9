@@ -4,22 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using dotnetapp.Models;
-<<<<<<< HEAD
-=======
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
 
 namespace dotnetapp.Controllers
 {
     [ApiController]
     public class AuthController : ControllerBase
     {
-<<<<<<< HEAD
-=======
         private readonly IConfiguration _configuration;
         private readonly SqlConnection _connection;
 
@@ -95,7 +90,6 @@ namespace dotnetapp.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while logging in");
             }
         }
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
         [HttpPost]
         [Route("user/signup")]
         public IActionResult SaveUser([FromBody] UserModel user)
@@ -125,11 +119,21 @@ namespace dotnetapp.Controllers
                  return BadRequest(new { Status = "Error", Error = "Wrong Email or Password" });
             }
         }
+        [HttpPost]
+        [Route("admin/login")]
+        public IActionResult AuthenticateAdmin([FromBody] LoginModel login)
+        {
+            DataAccessLayer dal = new DataAccessLayer();
+            bool isAuthenticated = dal.AuthenticateUser(login.Email, login.Password);
+            if (isAuthenticated)
+            {
+                return StatusCode(201, new { Status = "Success" });
+            }
+            else
+            {
+                 return BadRequest(new { Status = "Error", Error = "Wrong Email or Password" });
+            }
+        }
         
     }
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a

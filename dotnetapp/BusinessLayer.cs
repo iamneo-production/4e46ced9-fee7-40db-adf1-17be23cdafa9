@@ -25,5 +25,9 @@ namespace dotnetapp
         {
             return dal.AuthenticateUser(login.Email, login.Password);
         }
+        public bool AuthenticateAdmin(LoginModel login)
+        {
+            return dal.AuthenticateAdmin(login.Email, login.Password);
+        }
     }
 }
