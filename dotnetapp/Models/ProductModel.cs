@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace dotnetapp.Models
 {
+    public class ProductModel
     {
         public string? selectedSlot { get; set; }
         internal int serviceCenterId;
