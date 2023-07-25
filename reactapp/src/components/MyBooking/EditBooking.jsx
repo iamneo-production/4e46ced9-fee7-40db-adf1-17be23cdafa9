@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
-import { useParams } from 'react-router-dom';
-import { Link, Outlet } from 'react-router-dom';
-import './EditBooking.css'
-import { useNavigate } from 'react-router-dom';
+import { useParams,Link, Outlet,useNavigate } from 'react-router-dom';
 
 
 function EditBooking() {
@@ -254,8 +251,8 @@ function EditBooking() {
               <option value="" disabled>
                 Select a slot
               </option>
-              {slots.map((slot, index) => (
-                <option key={index} value={slot}>
+              {slots.map((slot) => (
+                <option key={slot} value={slot}>
                   {slot}
                 </option>
               ))}

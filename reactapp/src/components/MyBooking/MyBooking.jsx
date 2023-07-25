@@ -6,7 +6,6 @@ import { FaEdit, FaTrash, FaFileInvoice } from 'react-icons/fa';
 function MyBooking() {
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [selectedBookings, setSelectedBookings] = useState([]);
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
@@ -46,30 +45,29 @@ const fetchBookings = async () => {
     const year = String(date.getFullYear()).slice(-2);
     return `${day}/${month}/${year}`;
   }
-
+  function formatHour(hour) {
+    if (hour === 0) {
+      return 12;
+    } else if (hour > 12) {
+      return hour - 12;
+    } else {
+      return hour;
+    }
+  }
+  
   function formatTime(time) {
     if (!time) return '';
-
     const date = new Date(time);
     const hour = date.getHours();
     const minutes = date.getMinutes();
     const period = hour >= 12 ? 'PM' : 'AM';
-    const formattedHour = hour === 0 ? 12 : hour > 12 ? hour - 12 : hour;
+    const formattedHour = formatHour(hour);
     const formattedMinutes = String(minutes).padStart(2, '0');
-
     return `${formattedHour}:${formattedMinutes} ${period}`;
   }
 
   const NoBookingsMessage = () => {
     return <div>No bookings available</div>;
-  };
-
-  const handleBookingSelection = (bookingID) => {
-    if (selectedBookings.includes(bookingID)) {
-      setSelectedBookings((prevSelected) => prevSelected.filter((id) => id !== bookingID));
-    } else {
-      setSelectedBookings((prevSelected) => [...prevSelected, bookingID]);
-    }
   };
 
   const deleteBooking = (bookingID) => {
@@ -83,31 +81,6 @@ const fetchBookings = async () => {
           console.error('Error deleting booking:', error);
           setError('Failed to delete booking');
         });
-    }
-  };
-
-  const deleteSelectedBookings = async () => {
-    if (selectedBookings.length > 0) {
-      if (window.confirm('Are you sure you want to delete the selected bookings?')) {
-        try {
-          const requestData = {
-            bookingIDs: selectedBookings.map(Number),
-          };
-
-          await axios.delete('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/api/Appointment/deleteMultiple', {
-            data: JSON.stringify(requestData),
-            headers: {
-              'Content-Type': 'application/json',
-            },
-          });
-
-          fetchBookings();
-          setSelectedBookings([]);
-        } catch (error) {
-          console.error('Error deleting bookings:', error);
-          setError('Failed to delete bookings');
-        }
-      }
     }
   };
 
@@ -154,13 +127,10 @@ const fetchBookings = async () => {
       <div className="my-booking-container">
         {error && <div>Error: {error}</div>}
         {bookings.length === 0 ? (
-          <NoBookingsMessage />
+          NoBookingsMessage()
         ) : (
           <>
             <div className="action-buttons">
-              <button onClick={deleteSelectedBookings} disabled={selectedBookings.length === 0}>
-                Delete Selected
-              </button>
             </div>
             <table className="table" id="myBookingBody">
               <thead>
@@ -168,7 +138,6 @@ const fetchBookings = async () => {
                   <th>Name</th>
                   <th>Date</th>
                   <th>Timing</th>
-                  <th>Select</th>
                   <th>Edit</th>
                   <th>Delete</th>
                   <th>Bill</th>
@@ -180,13 +149,6 @@ const fetchBookings = async () => {
                     <td>{booking.serviceCenterName}</td>
                     <td>{formatDate(booking.availableSlots)}</td>
                     <td>{formatTime(booking.availableSlots)}</td>
-                    <td>
-                      <input
-                        type="checkbox"
-                        checked={selectedBookings.includes(booking.id)}
-                        onChange={() => handleBookingSelection(booking.id)}
-                      />
-                    </td>
                     <td>
                       <Link to={`/editbooking/${booking.id}`}>
                         <FaEdit />

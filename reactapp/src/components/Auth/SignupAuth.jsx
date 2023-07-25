@@ -2,7 +2,7 @@ function SignupAuth(values) {
     let error = {}
     const password_pattern = /^[a-zA-Z0-9]{8,}$/
     const username_pattern = /^[a-zA-Z0-9]{3,}$/ //alpha numeric character
-    const mobilenumber_pattern = /^[0-9]{10}$/
+    const mobilenumber_pattern = /^\d{10}$/;
     if (!values.Password) {
       error.Password = "Password should not be empty";
     } else if (!password_pattern.test(values.password)) {
