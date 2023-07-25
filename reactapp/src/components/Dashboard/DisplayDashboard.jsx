@@ -1,10 +1,10 @@
 import React, {useEffect,useState } from 'react';
-import './HomePage.css';
+import '../HomePage/HomePage.css';
 import { Link, useNavigate, Outlet } from 'react-router-dom';
 
 import axios from 'axios';
 
-function HomePage() {
+function DisplayDashboard() {
   const [data,setData]=useState([])
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -15,11 +15,11 @@ function HomePage() {
       navigate('/login');
       return;
     }
-      axios.get('http://localhost:5034/api/ServiceCenter/getdetails')
+      axios.get('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/getdetails')
       .then(res=>{
-        if(res.data.Status==="Success"){
-          console.log(res.data.Result)
-          setData(res.data.Result);
+        if(res.data.status==="Success"){
+          console.log(res.data.result)
+          setData(res.data.result);
         }else(
           alert("Error")
         )
@@ -45,10 +45,10 @@ function HomePage() {
     setSearchQuery(query);
     if (query === '') {
       // If search query is empty, display all images with out clicking the button
-      axios.get('http://localhost:5034/api/ServiceCenter/getdetails')
+      axios.get('https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/getdetails')
         .then(res => {
-          if (res.data.Status === "Success") {
-            setData(res.data.Result);
+          if (res.data.status === "Success") {
+            setData(res.data.result);
           } else {
             alert("Error");
           }
@@ -77,13 +77,13 @@ function HomePage() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <Link href="" to="/homepage" className="nav-link" id="homeButton" aria-current="page">Home</Link>
+                <Link to="/homepage" className="nav-link" id="homeButton" aria-current="page">Home</Link>
               </li>
               <li className="nav-item">
-                <Link href="" to="/Dashboard" className="nav-link" id="dashBoardButton">Dashboard</Link>
+                <Link to="/Dashboard" className="nav-link" id="dashBoardButton">Dashboard</Link>
               </li>
               <li className="nav-item">
-                <Link href="" to="/mybooking" className="nav-link" id="myBookingButton">My Booking</Link>
+                <Link to="/mybooking" className="nav-link" id="myBookingButton">My Booking</Link>
               </li>
             </ul>
             <a className="logout" id="logout"  onClick={HandleLogout}>Logout</a>
@@ -117,4 +117,5 @@ function HomePage() {
     </div>
   );
 }
-export default HomePage;
+
+export default DisplayDashboard;
