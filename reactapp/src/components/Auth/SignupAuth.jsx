@@ -1,6 +1,7 @@
 function SignupAuth(values) {
     let error = {}
 <<<<<<< HEAD
+<<<<<<< HEAD
     const email_pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     const password_pattern = /^[a-zA-Z0-9]{8,}$/
     const username_pattern = /^[a-zA-Z0-9]{3,}$/ //alpha numeric character
@@ -14,6 +15,11 @@ function SignupAuth(values) {
         error.Email= "";
     }
   
+=======
+    const password_pattern = /^[a-zA-Z0-9]{8,}$/
+    const username_pattern = /^[a-zA-Z0-9]{3,}$/ //alpha numeric character
+    const mobilenumber_pattern = /^\d{10}$/;
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
     const password_pattern = /^[a-zA-Z0-9]{8,}$/
     const username_pattern = /^[a-zA-Z0-9]{3,}$/ //alpha numeric character

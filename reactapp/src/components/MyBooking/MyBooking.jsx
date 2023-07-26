@@ -7,7 +7,10 @@ function MyBooking() {
   const [bookings, setBookings] = useState([]);
   const [loading, setLoading] = useState(true);
 <<<<<<< HEAD
+<<<<<<< HEAD
   const [selectedBookings, setSelectedBookings] = useState([]);
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
   const [error, setError] = useState('');
@@ -50,11 +53,14 @@ const fetchBookings = async () => {
     return `${day}/${month}/${year}`;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   function formatTime(time) {
     if (!time) return '';
 
 =======
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
   function formatHour(hour) {
     if (hour === 0) {
       return 12;
@@ -67,15 +73,23 @@ const fetchBookings = async () => {
   
   function formatTime(time) {
     if (!time) return '';
+<<<<<<< HEAD
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
+=======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
     const date = new Date(time);
     const hour = date.getHours();
     const minutes = date.getMinutes();
     const period = hour >= 12 ? 'PM' : 'AM';
 <<<<<<< HEAD
+<<<<<<< HEAD
     const formattedHour = hour === 0 ? 12 : hour > 12 ? hour - 12 : hour;
     const formattedMinutes = String(minutes).padStart(2, '0');
 
+=======
+    const formattedHour = formatHour(hour);
+    const formattedMinutes = String(minutes).padStart(2, '0');
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
     const formattedHour = formatHour(hour);
     const formattedMinutes = String(minutes).padStart(2, '0');
@@ -88,6 +102,7 @@ const fetchBookings = async () => {
   };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   const handleBookingSelection = (bookingID) => {
     if (selectedBookings.includes(bookingID)) {
       setSelectedBookings((prevSelected) => prevSelected.filter((id) => id !== bookingID));
@@ -96,6 +111,8 @@ const fetchBookings = async () => {
     }
   };
 
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
   const deleteBooking = (bookingID) => {
@@ -112,6 +129,7 @@ const fetchBookings = async () => {
     }
   };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   const deleteSelectedBookings = async () => {
     if (selectedBookings.length > 0) {
@@ -138,6 +156,8 @@ const fetchBookings = async () => {
     }
   };
 
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
   function HandleLogout() {
@@ -184,6 +204,7 @@ const fetchBookings = async () => {
         {error && <div>Error: {error}</div>}
         {bookings.length === 0 ? (
 <<<<<<< HEAD
+<<<<<<< HEAD
           <NoBookingsMessage />
         ) : (
           <>
@@ -192,10 +213,15 @@ const fetchBookings = async () => {
                 Delete Selected
               </button>
 =======
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
           NoBookingsMessage()
         ) : (
           <>
             <div className="action-buttons">
+<<<<<<< HEAD
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
+=======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
             </div>
             <table className="table" id="myBookingBody">
@@ -205,7 +231,10 @@ const fetchBookings = async () => {
                   <th>Date</th>
                   <th>Timing</th>
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <th>Select</th>
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
                   <th>Edit</th>
@@ -221,6 +250,7 @@ const fetchBookings = async () => {
                     <td>{formatTime(booking.availableSlots)}</td>
                     <td>
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <input
                         type="checkbox"
                         checked={selectedBookings.includes(booking.id)}
@@ -228,6 +258,8 @@ const fetchBookings = async () => {
                       />
                     </td>
                     <td>
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
                       <Link to={`/editbooking/${booking.id}`}>

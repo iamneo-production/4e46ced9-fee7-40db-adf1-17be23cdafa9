@@ -18,7 +18,10 @@ function Login() {
   };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
   const handleLoginSuccess = (status, userId) => {
     if (values.Email === 'admin' && values.Password === 'admin') {
       localStorage.setItem('authenticatedUser', false);
@@ -35,13 +38,20 @@ function Login() {
     }
   };
 
+<<<<<<< HEAD
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
+=======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
   const handleSubmit = async (event) => {
     event.preventDefault();
     const validationErrors = LoginAuth(values);
     setError(validationErrors);
 <<<<<<< HEAD
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
@@ -52,6 +62,7 @@ function Login() {
         const status = responseData.status;
         const userId = responseData.userId;
         if (status === 'Success') {
+<<<<<<< HEAD
 <<<<<<< HEAD
           if (values.Email === 'admin' && values.Password === 'admin') {
             localStorage.setItem('authenticatedUser', false);
@@ -69,6 +80,9 @@ function Login() {
 =======
           handleLoginSuccess(status, userId);
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
+=======
+          handleLoginSuccess(status, userId);
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
         }
       } catch (err) {
         console.log(err);
@@ -77,6 +91,7 @@ function Login() {
       }
     }
   };
+<<<<<<< HEAD
 <<<<<<< HEAD
   
     return (
@@ -118,6 +133,8 @@ function Login() {
   }
   
 =======
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 
   return (
     <>
@@ -170,5 +187,8 @@ function Login() {
   )
 }
 
+<<<<<<< HEAD
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
+=======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 export default Login;

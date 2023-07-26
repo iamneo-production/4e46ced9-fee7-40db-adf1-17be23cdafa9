@@ -34,10 +34,15 @@ function Signup() {
       validationErrors.UserRole === ""
     ) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       const randomId = Math.floor(Math.random() * 1000000);
       const updatedValues = {
         ...values,
         Id: randomId,
+=======
+      const updatedValues = {
+        ...values,
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
       const updatedValues = {
         ...values,
