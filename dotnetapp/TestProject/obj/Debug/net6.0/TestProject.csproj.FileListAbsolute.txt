@@ -1,8 +1,11 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> main
 <<<<<<< HEAD
 =======
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/CoverletSourceRootsMapping
@@ -190,4 +193,7 @@
 =======
 >>>>>>> parent of 8ed7a7e (Dashboard files)
 >>>>>>> 99fb131c1eaaf6417147302c732e595ce821ae50
+<<<<<<< HEAD
 >>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
+=======
+>>>>>>> main
