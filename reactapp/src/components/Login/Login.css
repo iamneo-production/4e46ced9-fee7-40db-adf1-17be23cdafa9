@@ -9,6 +9,10 @@
   
   #loginButton {
     background-color: #3F5F73;
+<<<<<<< HEAD
+=======
+    width: auto;
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
   }
   
   #email {
@@ -30,9 +34,12 @@
   #password {
     width: 100%;
   }
+<<<<<<< HEAD
   #loginButton {
     width: auto;
   }
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
   #singupLink {
     width: auto;
   }
