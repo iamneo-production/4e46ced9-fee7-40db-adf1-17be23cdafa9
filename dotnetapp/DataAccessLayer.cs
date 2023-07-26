@@ -122,5 +122,24 @@ namespace dotnetapp
                 }
             }
         }
+        internal bool AuthenticateAdmin(string email, string password)
+        {
+            using (SqlConnection con = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=cameraservice;trusted_connection=false;Persist Security Info =False;Encrypt=False"))
+            {
+                con.Open();
+
+                string query = "SELECT * FROM Users WHERE Email = @Email AND Password = @Password";
+                using (SqlCommand cmd = new SqlCommand(query, con))
+                {
+                    cmd.Parameters.AddWithValue("@Email", email);
+                    cmd.Parameters.AddWithValue("@Password", password);
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        return reader.HasRows;
+                    }
+                }
+            }
+        }
     }
 }

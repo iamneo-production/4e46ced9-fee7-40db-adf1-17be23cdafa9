@@ -119,6 +119,21 @@ namespace dotnetapp.Controllers
                  return BadRequest(new { Status = "Error", Error = "Wrong Email or Password" });
             }
         }
+        [HttpPost]
+        [Route("admin/login")]
+        public IActionResult AuthenticateAdmin([FromBody] LoginModel login)
+        {
+            DataAccessLayer dal = new DataAccessLayer();
+            bool isAuthenticated = dal.AuthenticateUser(login.Email, login.Password);
+            if (isAuthenticated)
+            {
+                return StatusCode(201, new { Status = "Success" });
+            }
+            else
+            {
+                 return BadRequest(new { Status = "Error", Error = "Wrong Email or Password" });
+            }
+        }
         
     }
 }
