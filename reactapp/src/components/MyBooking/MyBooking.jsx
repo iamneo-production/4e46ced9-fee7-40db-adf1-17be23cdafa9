@@ -9,7 +9,10 @@ function MyBooking() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   const [selectedBookings, setSelectedBookings] = useState([]);
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
@@ -58,11 +61,14 @@ const fetchBookings = async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   function formatTime(time) {
     if (!time) return '';
 
 =======
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
@@ -81,6 +87,9 @@ const fetchBookings = async () => {
     if (!time) return '';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
+=======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
@@ -93,9 +102,14 @@ const fetchBookings = async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     const formattedHour = hour === 0 ? 12 : hour > 12 ? hour - 12 : hour;
     const formattedMinutes = String(minutes).padStart(2, '0');
 
+=======
+    const formattedHour = formatHour(hour);
+    const formattedMinutes = String(minutes).padStart(2, '0');
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
     const formattedHour = formatHour(hour);
     const formattedMinutes = String(minutes).padStart(2, '0');
@@ -118,6 +132,7 @@ const fetchBookings = async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   const handleBookingSelection = (bookingID) => {
     if (selectedBookings.includes(bookingID)) {
       setSelectedBookings((prevSelected) => prevSelected.filter((id) => id !== bookingID));
@@ -126,6 +141,8 @@ const fetchBookings = async () => {
     }
   };
 
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
@@ -146,6 +163,7 @@ const fetchBookings = async () => {
     }
   };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,6 +192,8 @@ const fetchBookings = async () => {
     }
   };
 
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
@@ -226,6 +246,7 @@ const fetchBookings = async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           <NoBookingsMessage />
         ) : (
           <>
@@ -238,12 +259,17 @@ const fetchBookings = async () => {
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
           NoBookingsMessage()
         ) : (
           <>
             <div className="action-buttons">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
+=======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
@@ -259,7 +285,10 @@ const fetchBookings = async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <th>Select</th>
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
@@ -281,6 +310,7 @@ const fetchBookings = async () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                       <input
                         type="checkbox"
                         checked={selectedBookings.includes(booking.id)}
@@ -288,6 +318,8 @@ const fetchBookings = async () => {
                       />
                     </td>
                     <td>
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======

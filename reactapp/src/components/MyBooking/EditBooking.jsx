@@ -3,10 +3,14 @@ import axios from 'axios';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { useParams } from 'react-router-dom';
 import { Link, Outlet } from 'react-router-dom';
 import './EditBooking.css'
 import { useNavigate } from 'react-router-dom';
+=======
+import { useParams,Link, Outlet,useNavigate } from 'react-router-dom';
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 import { useParams,Link, Outlet,useNavigate } from 'react-router-dom';
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
@@ -189,7 +193,11 @@ function EditBooking() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <a className="logout" id="logout" onClick={HandleLogout}></a>
+=======
+            <a className="logout" id="logout" onClick={HandleLogout}>Logout</a>
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
             <a className="logout" id="logout" onClick={HandleLogout}>Logout</a>
 >>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
@@ -281,8 +289,13 @@ function EditBooking() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
               {slots.map((slot, index) => (
                 <option key={index} value={slot}>
+=======
+              {slots.map((slot) => (
+                <option key={slot} value={slot}>
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
               {slots.map((slot) => (
                 <option key={slot} value={slot}>

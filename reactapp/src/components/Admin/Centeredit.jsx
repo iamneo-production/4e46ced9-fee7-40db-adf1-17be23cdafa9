@@ -2,11 +2,17 @@ import './Addcenter.css'
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from 'react';
 import axios from 'axios';
 import {useEffect,useState } from 'react';
 import {useNavigate,useParams } from 'react-router-dom';
 import { Link, Outlet } from 'react-router-dom'
+=======
+import axios from 'axios';
+import  React, {useEffect,useState } from 'react';
+import {useNavigate,useParams,Link, Outlet } from 'react-router-dom';
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 import axios from 'axios';
 import  React, {useEffect,useState } from 'react';

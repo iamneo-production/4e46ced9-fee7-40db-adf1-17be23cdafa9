@@ -4,11 +4,15 @@
 >>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
 >>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
 >>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
+<<<<<<< HEAD
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.csproj.AssemblyReference.cache
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.GeneratedMSBuildEditorConfig.editorconfig
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.csproj.CoreCompileInputs.cache
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.MvcApplicationPartsAssemblyInfo.cs
 /home/coder/project/workspace/dotnetapp/obj/Debug/net6.0/dotnetapp.MvcApplicationPartsAssemblyInfo.cache
+=======
+>>>>>>> ebded882596a4706556b4b4490af1e1939411ade
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/appsettings.Development.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/appsettings.json
 /home/coder/project/workspace/dotnetapp/bin/Debug/net6.0/TestProject/bin/Debug/net6.0/appsettings.Development.json

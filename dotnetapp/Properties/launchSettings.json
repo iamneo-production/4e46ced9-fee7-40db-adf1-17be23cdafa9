@@ -1,9 +1,26 @@
 ﻿{
+<<<<<<< HEAD
   "$schema": "http://json.schemastore.org/launchsettings.json",
+=======
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
+<<<<<<< HEAD
+=======
+      "applicationUrl": "http://localhost:21924",
+      "sslPort": 44334
+    }
+  },
+  "profiles": {
+    "dotnetapp": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://0.0.0.0:8080",
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
       "applicationUrl": "http://localhost:14060",
       "sslPort": 44376
     }
