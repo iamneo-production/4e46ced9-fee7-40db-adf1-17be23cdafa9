@@ -60,12 +60,6 @@ namespace dotnetapp
             {
                 endpoints.MapControllers();
             });
-<<<<<<< HEAD
         }
     }
 }
-=======
-        }
-    }
-}
->>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
