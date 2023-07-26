@@ -28,12 +28,9 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
             "projectReferences": {}
 =======
-=======
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
->>>>>>> ebded882596a4706556b4b4490af1e1939411ade
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
             "projectReferences": {
               "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj": {
                 "projectPath": "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj"
@@ -41,11 +38,8 @@
             }
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
->>>>>>> 3292d8d95ac5cb9422264e9baad444713025416b
-=======
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
->>>>>>> ebded882596a4706556b4b4490af1e1939411ade
+>>>>>>> 97d85cc56858d7c93ee07849909a40490d5a534b
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
           }
         },
         "warningProperties": {
@@ -101,11 +95,8 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
->>>>>>> ebded882596a4706556b4b4490af1e1939411ade
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
     },
     "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj": {
       "version": "1.0.0",
@@ -141,13 +132,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-<<<<<<< HEAD
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
-=======
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -174,24 +162,19 @@
               "target": "Package",
               "version": "[3.13.0, )"
             },
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> ebded882596a4706556b4b4490af1e1939411ade
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            },
-<<<<<<< HEAD
-=======
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
->>>>>>> ebded882596a4706556b4b4490af1e1939411ade
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
             },
+<<<<<<< HEAD
             "System.Data.SqlClient": {
+=======
+<<<<<<< HEAD
+            "System.Data.sqlClient": {
+=======
+            "System.Data.SqlClient": {
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
               "target": "Package",
               "version": "[4.8.5, )"
             }
@@ -220,11 +203,8 @@
       }
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
->>>>>>> 3292d8d95ac5cb9422264e9baad444713025416b
-=======
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
->>>>>>> ebded882596a4706556b4b4490af1e1939411ade
+>>>>>>> 97d85cc56858d7c93ee07849909a40490d5a534b
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
     }
   }
 }

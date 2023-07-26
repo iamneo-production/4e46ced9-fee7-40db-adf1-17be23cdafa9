@@ -1,8 +1,11 @@
 import'./BillGeneration.css';
 import axios from 'axios';
+import { Document, Page, Text, View, StyleSheet } from '@react-pdf/renderer';
+import { PDFDownloadLink } from '@react-pdf/renderer';
 import html2pdf from 'html2pdf.js';
+import { saveAs } from 'file-saver';
 import React, { useEffect, useState, useRef } from 'react';
-import { useParams,useNavigate } from 'react-router-dom';
+import { useParams,Link,useNavigate } from 'react-router-dom';
 // Define the styles for the PDF document
 
 function BillGeneration() {
@@ -16,7 +19,7 @@ function BillGeneration() {
   useEffect(() => {
     const fetchBillData = async () => {
       try {
-        const response = await axios.get(`https://8080-fdfacfbeafebeebdaeeadfabafceaa.project.examly.io/api/Appointment/generateBill/${id}`);
+        const response = await axios.get(`http://localhost:5034/api/Appointment/generateBill/${id}`);
         const { data } = response;
         setBillData(data);
         setLoading(false);
@@ -73,22 +76,22 @@ function BillGeneration() {
       </div>
       <div className="current-date">
       <p><strong>Date:</strong>{currentDate}</p>
-      <p><strong>Bill ID:</strong> {billData.billID}</p>
+      <p><strong>Bill ID:</strong> {billData.BillID}</p>
       </div>
       
       <div className="customer-details">
         <h3>Customer Details</h3>
         <p><strong>User ID:</strong> {billData.userID}</p>
-        <p><strong>Contact Number:</strong>{billData.contactNumber}</p>
-        <p><strong>Email:</strong>{billData.userEmail}</p>
+        <p><strong>Contact Number:</strong>{billData.ContactNumber}</p>
+        <p><strong>Email:</strong>{billData.UserEmail}</p>
       </div>
 
       <div className="product-details">
         <h3>Product Details</h3>
-        <p><strong>Model Name:</strong> {billData.productName}</p>
-        <p><strong>Model No:</strong> {billData.productModelNo}</p>
-        <p><strong>Date of Purchase:</strong> {billData.dateOfPurchase}</p>
-        <p><strong>Problem Description:</strong> {billData.problemDescription}</p>
+        <p><strong>Model Name:</strong> {billData.ProductName}</p>
+        <p><strong>Model No:</strong> {billData.ProductModelNo}</p>
+        <p><strong>Date of Purchase:</strong> {billData.DateOfPurchase}</p>
+        <p><strong>Problem Description:</strong> {billData.ProblemDescription}</p>
       </div>   
 
       <table className="table">
@@ -101,9 +104,9 @@ function BillGeneration() {
         </thead>
         <tbody>
           <tr>
-            <td>{billData.availableSlots}</td>
-            <td>Rs.{billData.serviceCenterCost}</td>
-            <td>Rs.{billData.serviceCenterCost}</td>
+            <td>{billData.AvailableSlots}</td>
+            <td>Rs.{billData.ServiceCenterCost}</td>
+            <td>Rs.{billData.ServiceCenterCost}</td>
           </tr>
         </tbody>
       </table>
@@ -112,7 +115,7 @@ function BillGeneration() {
         <h3>Service Center Details</h3>
         <div className="detail-item">
           <p><strong>Name:</strong></p>
-          <p>{billData.serviceCenterName}</p>
+          <p>{billData.ServiceCenterName}</p>
         </div>
         <div className="detail-item">
           <p><strong>Phone:</strong></p>

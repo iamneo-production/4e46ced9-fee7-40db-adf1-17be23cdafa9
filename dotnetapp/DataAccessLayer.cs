@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -122,24 +129,13 @@ namespace dotnetapp
                 }
             }
         }
-        internal bool AuthenticateAdmin(string email, string password)
-        {
-            using (SqlConnection con = new SqlConnection("User ID =sa;password=examlyMssql@123;server=localhost;Database=cameraservice;trusted_connection=false;Persist Security Info =False;Encrypt=False"))
-            {
-                con.Open();
-
-                string query = "SELECT * FROM Users WHERE Email = @Email AND Password = @Password";
-                using (SqlCommand cmd = new SqlCommand(query, con))
-                {
-                    cmd.Parameters.AddWithValue("@Email", email);
-                    cmd.Parameters.AddWithValue("@Password", password);
-
-                    using (SqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        return reader.HasRows;
-                    }
-                }
-            }
-        }
     }
+<<<<<<< HEAD
 }
+=======
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
+>>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
