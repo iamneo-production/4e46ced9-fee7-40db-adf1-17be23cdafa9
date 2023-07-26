@@ -1,10 +1,16 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from 'react';
 import './Dashboard.css'
 import { Link, Outlet } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { useParams,useNavigate } from 'react-router-dom';
+=======
+import './Dashboard.css'
+import React, { useEffect, useState } from 'react';
+import { useParams,useNavigate,Link, Outlet} from 'react-router-dom';
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 =======
 import './Dashboard.css'
 import React, { useEffect, useState } from 'react';
