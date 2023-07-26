@@ -1,7 +1,6 @@
 import './Addcenter.css'
 import { Link, Outlet } from 'react-router-dom'
-import React, {useEffect,useState } from 'react';
-import {useParams,useNavigate} from 'react-router-dom';
+import React, {useEffect,useState,useNavigate } from 'react';
 import axios from 'axios';
 import { FaEdit, FaTrash } from 'react-icons/fa';
 

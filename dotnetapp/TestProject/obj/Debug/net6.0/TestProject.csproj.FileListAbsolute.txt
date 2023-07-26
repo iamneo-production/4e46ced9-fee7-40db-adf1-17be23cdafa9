@@ -1,9 +1,16 @@
 <<<<<<< HEAD
 =======
 >>>>>>> 8ed7a7e5e05970b7cbf85d8af0ef330e82d8b063
+<<<<<<< HEAD
 >>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
 >>>>>>> parent of 8ed7a7e (Dashboard files)
 >>>>>>> 99fb131c1eaaf6417147302c732e595ce821ae50
+=======
+>>>>>>> parent of 8ed7a7e (Dashboard files)
+>>>>>>> 99fb131c1eaaf6417147302c732e595ce821ae50
+>>>>>>> ebded882596a4706556b4b4490af1e1939411ade
+>>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
+>>>>>>> a31a231a81a68b48e94fb97a051418bda8bb1d63
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/CoverletSourceRootsMapping
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/dotnetapp.deps.json
 /home/coder/project/workspace/dotnetapp/TestProject/bin/Debug/net6.0/dotnetapp.runtimeconfig.json

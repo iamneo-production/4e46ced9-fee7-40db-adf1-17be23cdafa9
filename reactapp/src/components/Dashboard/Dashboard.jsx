@@ -1,8 +1,6 @@
-import React from 'react';
 import './Dashboard.css'
-import { Link, Outlet } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-import { useParams,useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { useParams,useNavigate,Link, Outlet} from 'react-router-dom';
 import axios from 'axios';
 import { FaStar } from 'react-icons/fa';
 import moment from 'moment';
