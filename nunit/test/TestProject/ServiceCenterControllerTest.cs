@@ -47,7 +47,7 @@ string responseBody = await response.Content.ReadAsStringAsync();
 HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "admin/login");
 
                 // request.Content = new StringContent("{\"name\": \"John\", \"age\": 30}",
-request.Content = new StringContent("{\"Email \": \"demo@gmail.com\",\"Password \": \"demo@123\"}",
+request.Content = new StringContent("{\"Email\": \"demo@gmail.com\",\"Password\": \"demo@123\"}",
 Encoding.UTF8, "application/json");
 
                 // Send the request to the API endpoint.
@@ -128,7 +128,7 @@ Encoding.UTF8, "application/json");
 HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "user/login");
 
                 // request.Content = new StringContent("{\"name\": \"John\", \"age\": 30}",
-request.Content = new StringContent("{\"Email \": \"demo@gmail.com\",\"Password \": \"demo@123\"}",
+request.Content = new StringContent("{\"Email\": \"demo@gmail.com\",\"Password\": \"demo@123\"}",
 Encoding.UTF8, "application/json");
 
                 // Send the request to the API endpoint.
