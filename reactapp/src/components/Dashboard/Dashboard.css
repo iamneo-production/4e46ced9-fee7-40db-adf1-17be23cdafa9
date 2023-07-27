@@ -6,7 +6,6 @@
     flex: 1;
     background-color: grey;
   }
-  
   .right-column {
     display: flex;
     flex-direction: column;
