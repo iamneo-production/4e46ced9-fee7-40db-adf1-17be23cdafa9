@@ -117,10 +117,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Cors": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -147,19 +143,15 @@
               "target": "Package",
               "version": "[3.13.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
             },
-<<<<<<< HEAD
-            "System.Data.sqlClient": {
-=======
-<<<<<<< HEAD
             "System.Data.SqlClient": {
-=======
-            "System.Data.sqlClient": {
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
->>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
               "target": "Package",
               "version": "[4.8.5, )"
             }
