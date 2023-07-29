@@ -1,21 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "dgSpecHash": "J+RbvMEPNRXr+EyV2mPNn5LAR/oftDBa0I/qSWFSZYayHAU91fLAcKoeyd92aN1BiNICyrLKu+h28O/wSgUxzg==",
-=======
-  "dgSpecHash": "NYCZbqnW/4C3XwUokLlx73lP6L3s5nY94pUySt+yl5Gmt9X2SOQ2q2OapyWuFn+AikvUhFvnVF+q2fB9ZVWKMQ==",
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
-=======
-  "dgSpecHash": "NYCZbqnW/4C3XwUokLlx73lP6L3s5nY94pUySt+yl5Gmt9X2SOQ2q2OapyWuFn+AikvUhFvnVF+q2fB9ZVWKMQ==",
-=======
-<<<<<<< HEAD
-  "dgSpecHash": "J+RbvMEPNRXr+EyV2mPNn5LAR/oftDBa0I/qSWFSZYayHAU91fLAcKoeyd92aN1BiNICyrLKu+h28O/wSgUxzg==",
-=======
-  "dgSpecHash": "NYCZbqnW/4C3XwUokLlx73lP6L3s5nY94pUySt+yl5Gmt9X2SOQ2q2OapyWuFn+AikvUhFvnVF+q2fB9ZVWKMQ==",
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
->>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
+  "dgSpecHash": "FkcdlkJsrl//9reaxUyn/pIJvhTRN1fN/lRkQrdZhiTlU5zK563CnY/L2Y+xOwI1pt/uVdbHw2ajEwHeoFPJ5A==",
   "success": true,
   "projectFilePath": "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj",
   "expectedPackageFiles": [
@@ -59,6 +44,7 @@
     "/home/coder/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/moq/4.18.4/moq.4.18.4.nupkg.sha512",
     "/home/coder/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/home/coder/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/home/coder/.nuget/packages/nunit/3.13.0/nunit.3.13.0.nupkg.sha512",
     "/home/coder/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "/home/coder/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

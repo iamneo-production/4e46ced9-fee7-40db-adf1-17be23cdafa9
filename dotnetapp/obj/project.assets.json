@@ -682,6 +682,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "NUnit/3.13.0": {
         "type": "package",
         "dependencies": {
@@ -2177,6 +2190,36 @@
         "netstandard.library.nuspec"
       ]
     },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "NUnit/3.13.0": {
       "sha512": "G+BOONgJKtNtprjGQ54l0m+Vq2VFCMh/H6ljuHfqrRlX6YkNy0GjMd5Nn0NpJidGpRd4gAOJsBqNuxr7Kgc/5g==",
       "type": "package",
@@ -2986,23 +3029,9 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Moq >= 4.18.4",
       "NUnit >= 3.13.0",
+      "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 5.6.3",
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "System.Data.sqlClient >= 4.8.5"
-=======
       "System.Data.SqlClient >= 4.8.5"
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
-=======
-      "System.Data.SqlClient >= 4.8.5"
-=======
-<<<<<<< HEAD
-      "System.Data.sqlClient >= 4.8.5"
-=======
-      "System.Data.SqlClient >= 4.8.5"
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
->>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
     ]
   },
   "packageFolders": {
@@ -3072,25 +3101,15 @@
             "target": "Package",
             "version": "[3.13.0, )"
           },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[5.6.3, )"
           },
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
           "System.Data.SqlClient": {
-=======
-<<<<<<< HEAD
->>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
-          "System.Data.sqlClient": {
-=======
-          "System.Data.SqlClient": {
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
-<<<<<<< HEAD
-=======
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
->>>>>>> 192b4b9660105fdd334081a02465e5f181ef9dc9
             "target": "Package",
             "version": "[4.8.5, )"
           }
