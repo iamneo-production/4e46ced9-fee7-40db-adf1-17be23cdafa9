@@ -2777,19 +2777,7 @@
       "NUnit >= 3.13.0",
       "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 5.6.3",
-<<<<<<< HEAD
-<<<<<<< HEAD
       "System.Data.SqlClient >= 4.8.5"
-=======
-<<<<<<< HEAD
-      "System.Data.sqlClient >= 4.8.5"
-=======
-      "System.Data.SqlClient >= 4.8.5"
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
-=======
-      "System.Data.SqlClient >= 4.8.5"
->>>>>>> 6ab37097f7cdbc1082c2d5237235e0ad9e7cdf04
     ]
   },
   "packageFolders": {
@@ -2863,19 +2851,7 @@
             "target": "Package",
             "version": "[5.6.3, )"
           },
-<<<<<<< HEAD
-<<<<<<< HEAD
           "System.Data.SqlClient": {
-=======
-<<<<<<< HEAD
-          "System.Data.sqlClient": {
-=======
-          "System.Data.SqlClient": {
->>>>>>> b1643be60d2c9cbd1d89baa7c7f54974d63a119a
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
-=======
-          "System.Data.SqlClient": {
->>>>>>> 6ab37097f7cdbc1082c2d5237235e0ad9e7cdf04
             "target": "Package",
             "version": "[4.8.5, )"
           }
@@ -2902,5 +2878,13 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /home/coder/project/workspace/dotnetapp/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

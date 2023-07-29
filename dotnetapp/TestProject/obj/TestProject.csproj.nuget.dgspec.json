@@ -25,30 +25,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6ab37097f7cdbc1082c2d5237235e0ad9e7cdf04
-<<<<<<< HEAD
-            "projectReferences": {}
-=======
-=======
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
             "projectReferences": {
               "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj": {
                 "projectPath": "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj"
               }
             }
-<<<<<<< HEAD
->>>>>>> 3292d8d95ac5cb9422264e9baad444713025416b
-=======
-<<<<<<< HEAD
->>>>>>> 97d85cc56858d7c93ee07849909a40490d5a534b
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
-=======
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
->>>>>>> 6ab37097f7cdbc1082c2d5237235e0ad9e7cdf04
           }
         },
         "warningProperties": {
@@ -101,15 +82,6 @@
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
         }
       }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
-=======
-=======
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
->>>>>>> 6ab37097f7cdbc1082c2d5237235e0ad9e7cdf04
     },
     "/home/coder/project/workspace/dotnetapp/dotnetapp.csproj": {
       "version": "1.0.0",
@@ -145,13 +117,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-<<<<<<< HEAD
-            "Microsoft.AspNetCore.Cors": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-=======
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -178,13 +143,10 @@
               "target": "Package",
               "version": "[3.13.0, )"
             },
-<<<<<<< HEAD
-=======
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
             },
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -216,15 +178,6 @@
           "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
         }
       }
-<<<<<<< HEAD
->>>>>>> 3292d8d95ac5cb9422264e9baad444713025416b
-=======
-<<<<<<< HEAD
->>>>>>> 97d85cc56858d7c93ee07849909a40490d5a534b
->>>>>>> afe0afc5fb3b7a8abe553ec3b7a54d0a350a8996
-=======
->>>>>>> 292b65554fc5641304592776031b6cfba8a06c6f
->>>>>>> 6ab37097f7cdbc1082c2d5237235e0ad9e7cdf04
     }
   }
 }
